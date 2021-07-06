@@ -17,12 +17,13 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 
 .half-width{
 
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
     
 }
 
@@ -30,8 +31,35 @@ section{
 
     width: 75%;
     margin-top: 8%;
-    padding-left: 8%;
+    padding-left: 4%;
+    padding-top: 2%;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: beige;
+    box-shadow: 1px 3px 12px;
+
 }
+
+.half-width-2nd{
+
+    width: 400px;
+    padding-left: 15%;
+
+}
+
+.half-width-2nd img{
+
+ 
+   width: 85%;
+   border-radius: 40px;
+   border-style: solid;
+   border-color: aliceblue;
+   box-shadow: 0 4px 8px 0;
+   
+   
+
+}
+
 
 .link-button{
 
@@ -39,7 +67,7 @@ section{
     background-image: linear-gradient(rgb(236, 119, 119),rgb(243, 88, 71));
     padding: 13px 40px;
     border-radius: 10px;
-    color: wheat;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -48,5 +76,14 @@ section{
 
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
+}
+
+.dream-big{
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
 
 }
