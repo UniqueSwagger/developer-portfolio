@@ -13,7 +13,10 @@ h2{
 
     font-size: 40px;
 }
+p{
 
+    opacity: 0.6;
+}
 .orange-color{
 
     color: orange;
@@ -27,7 +30,7 @@ h2{
 .half-width{
 
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
     
 }
 
